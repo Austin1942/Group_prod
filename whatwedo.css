@@ -1,5 +1,6 @@
 content="width=device-width, initial-scale=1">
-<style>
+<style>-->
+
 * {
   box-sizing: border-box;
 }
@@ -9,17 +10,25 @@ body {
 }
 
 
-}
-
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
 }
 
-/* Left and right column */
+/* Right column */
 .column.side {
   width: 25%;
+}
+
+/* Left column */
+.column.side1 {
+  width: 250px;
+  background-image: url("images/nav_side.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0px 0px 25px;
+  color:white;
 }
 
 /* Middle column */
@@ -39,3 +48,9 @@ body {
   .column.side, .column.middle {
     width: 100%;
   }
+}
+
+.container{
+  width:750px;
+}
+
