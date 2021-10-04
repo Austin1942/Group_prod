@@ -4,9 +4,8 @@ li {
 
 .nav{
     position:absolute;
-    top: px;
-    left: 10px;
-    z-index: 1;}
+    top: 0px;
+    left: 10px;}
 
 .career{
     position:absolute;
@@ -46,5 +45,17 @@ li {
       width: 200px;
       z-index: 2;
       color: white;}
+
+.col-6{
+    background-image: url("images/nav_side.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0px 0px 25px;
+    width:250px;
+}
+
+.nav-item{
+    padding: 0px 10px 0px 0px;
+}
 
 
