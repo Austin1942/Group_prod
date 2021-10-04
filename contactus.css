@@ -11,9 +11,21 @@ content="width=device-width, initial-scale=1">
     padding: 10px;
   }
   
-  /* Left and right column */
-  .column.side {
-    width: 25%;
+  /* Right column */
+  .column.side2 {
+    width: 250px;
+    background-image: url("images/other_links_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+  }
+
+  /* Left column */
+  .column.side1 {
+    width: 250px;
+    background-image: url("images/nav_side.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   /* Middle column */
@@ -34,3 +46,12 @@ content="width=device-width, initial-scale=1">
       width: 100%;
     }
   }
+
+  p1{
+    color: red;
+  }
+
+  p2{
+    color: black;
+  }
+
