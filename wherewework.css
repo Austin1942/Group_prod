@@ -1,3 +1,50 @@
 li {
     list-style-type: none;
 }
+
+.nav{
+    position:absolute;
+    top: px;
+    left: 10px;
+    z-index: 1;}
+
+.career{
+    position:absolute;
+      top: 650px;
+      left: 8px;
+      width: 200px;
+      z-index: 2;
+}
+.text{
+    position:absolute;
+      top: 525px;
+      left: 25px;
+      width: 200px;
+      z-index: 2;
+      color: white;}
+      
+.texttwo{
+      position: absolute;
+      top: 560px;
+      left: 40px;
+      width: 200px;
+      z-index: 2;
+      color: white;}
+
+.textthree{
+     position: absolute;
+      top: 600px;
+      left: 40px;
+      width: 200px;
+      z-index: 2;
+      color: white;}
+
+.textfour {
+    position: absolute;
+      top: 600px;
+      left: 40px;
+      width: 200px;
+      z-index: 2;
+      color: white;}
+
+
